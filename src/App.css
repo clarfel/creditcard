@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,107 @@
   to {
     transform: rotate(360deg);
   }
+} */
+.displayCard {
+  border: 1px solid black;
+  display: flex;
 }
+/*************************************creditCard******************************************/
+.bgCreditCard {
+  background: url("https://dca63207795f5f80ce60-6ccb201fe2c97fe2f6941c803aa0e29f.ssl.cf2.rackcdn.com/predesign/cobrand/GC16-Omni-4_1.jpg");
+  width: 420px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+  border-radius: 30px;
+}
+
+.titleCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 10%;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.simCard {
+  margin-left: 10%;
+}
+
+.simCardImage {
+  height: 50px;
+  width: 50px;
+}
+
+.idCardNumber {
+  background: rgba(214, 180, 78, 0.3);
+  color: #fdd131;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+.userCard {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+.userCardID {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+.userCardValidation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+.userCardDescription {
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  margin-left: 10%;
+  text-transform: uppercase;
+  margin-bottom: 2.5%;
+}
+
+.cardType {
+  position: fixed;
+  top: 250px;
+  left: 430px;
+}
+/*************************************creditCardEnding******************************************/
+
+/*************************************inputInterface******************************************/
+
+.inputInterface {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*************************************inputInterfaceEnding******************************************/
